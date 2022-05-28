@@ -1,10 +1,4 @@
-import React from "React"
+import React from "react";
 
-function Status(props){
-    return(
-        <div>
-            <h3>how {props.sal}</h3>
-        </div>
-    )
-}
-export default Status
+const Status = (Props) => <div>How {Props.sal}</div>
+export default Status;
