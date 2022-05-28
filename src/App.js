@@ -3,6 +3,7 @@ import './App.css';
 import Greet from './Components/Greet';
 import Age from './Components/Age';
 import Welcome from './Components/Weclome';
+import Status from './Components/Status';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <button>Click</button>
       <Age year = "16"/>
       <Welcome name = "Enid" nickName = "Dine"/>
+      <Status sal ="are you doing?"/>
+     
     </>
   );
     
